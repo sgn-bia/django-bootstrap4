@@ -4,14 +4,14 @@ from django.conf import settings
 
 BOOTSTRAP4_DEFAULTS = {
     "css_url": {
-        "href": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
-        "integrity": "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-        "crossorigin": "anonymous",
+        "href": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+        "integrity": "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",
+        "crossorigin": "anonymous"
     },
     "javascript_url": {
-        "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
-        "integrity": "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM",
-        "crossorigin": "anonymous",
+        "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+        "integrity": "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6",
+        "crossorigin": "anonymous"
     },
     "theme_url": None,
     "jquery_url": {
@@ -29,8 +29,8 @@ BOOTSTRAP4_DEFAULTS = {
         "integrity": "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1",
         "crossorigin": "anonymous",
     },
-    "javascript_in_head": False,
-    "include_jquery": False,
+    "javascript_in_head": True,
+    "include_jquery": True,
     "use_i18n": False,
     "horizontal_label_class": "col-md-3",
     "horizontal_field_class": "col-md-9",
